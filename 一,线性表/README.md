@@ -26,7 +26,7 @@
 
 ##### 3), 两种存储结构的比较
 
-![](https://github.com/chensongpoixs/cstructdata/blob/master/%E4%B8%80%2C%E7%BA%BF%E6%80%A7%E8%A1%A8/img/sequence_linked_table.png?raw=true)
+![](https://github.com/chensongpoixs/cstructdata/raw/master/%E4%B8%80%2C%E7%BA%BF%E6%80%A7%E8%A1%A8/img/sequence_linked_table.png?raw=true)
 
 顺序表就好像
 
