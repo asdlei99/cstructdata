@@ -2,7 +2,7 @@
 
 ### 一, 树的基本术语
 
-![](https://github.com/chensongpoixs/cstructdata/tree/master/%E4%B8%89%2C%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91/img/tree_.png?raw=true)
+![](https://github.com/chensongpoixs/cstructdata/raw/master/%E4%B8%89%2C%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91/img/tree_.png?raw=true)
 
 1. 树中一个结点的子结点个数称为该结点的度, 树中结点的最大度数称为树的度。如结点B的度为2,结点D的度为3,树的度为3.
 2. 度大于0的结点称为分支结点(又称非终端结点),度为0(没有子女结点)的结点称为叶子结点(又称终端结点)。在分支结点中,每个结点的分支数就是该结点的度。
@@ -20,7 +20,7 @@
 
 #### 1, 几种特殊的二叉树
 
-![](https://github.com/chensongpoixs/cstructdata/tree/master/%E4%B8%89%2C%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91/img/full_binary_tree.png?raw=true)
+![](https://github.com/chensongpoixs/cstructdata/raw/master/%E4%B8%89%2C%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91/img/full_binary_tree.png?raw=true)
 
 
 1. 满二叉树。一颗高度为h。且含有2^h - 1个结点的二叉树称为满二叉树,即树中的每层都含有最多的结点,上图所示。满二叉树的叶子结点都集中在二叉树的最下一层,并且除叶子结点之外的每个结点度数均为2。
@@ -28,7 +28,7 @@
 可以对满二叉树按层续编号:约定编号从跟结点(跟结点编号为1)起,自上而下,自左而右。这样,每个结点对应一个编号,对于编号为i的结点,若有双亲,则其双亲为[i/2],若有左孩子,则左孩子为2i; 若有右孩子,则右孩子为2i+1。
 
 
-![](https://github.com/chensongpoixs/cstructdata/tree/master/%E4%B8%89%2C%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91/img/compelte_binary_tree.png?raw=true)
+![](https://github.com/chensongpoixs/cstructdata/raw/master/%E4%B8%89%2C%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91/img/compelte_binary_tree.png?raw=true)
 
 2. 完全二叉树。设一个高度为h,有n个结点的二叉树,当且仅当其每个结点都与高度为h的满二叉树中编号为1到n的结点一一对应时,称为完全二叉树,如上图。这种树的特点如下:
 
@@ -44,7 +44,7 @@
 
 #### 2, 二叉树的性质
 
-![](https://github.com/chensongpoixs/cstructdata/tree/master/%E4%B8%89%2C%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91/img/binary_tree_n0.png?raw=true)
+![](https://github.com/chensongpoixs/cstructdata/raw/master/%E4%B8%89%2C%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91/img/binary_tree_n0.png?raw=true)
 
 
 1. 非空二叉树上的叶子结点数等于度为2的结点数加1,即n0 = n2 + 1。
