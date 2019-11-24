@@ -264,7 +264,7 @@ void level_order(BiTree T)
 		}
 	}
 }
-```7
+```
 
 
 ### 五, 树与二叉树的应用
@@ -296,10 +296,21 @@ void level_order(BiTree T)
 ![](https://github.com/chensongpoixs/cstructdata/raw/master/%E4%B8%89%2C%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91/img/balanced_binary_tree_insert_ll.png?raw=true)
 
 
+###### 2, RR平衡旋转(左单旋转)
+
+由于在结点A的右孩子(R)的右子树(R)上插入了新结点,A的平衡因子由-1减至-2,导致以A为根的子树失去平衡,需要一次向左的旋转操作。将A的右孩子B向左上旋转替代A成为根结点,将A结点向左下旋转成为B的左子树的根结点,而B的原右子树则作为A结点的右子树，
+
+![](https://github.com/chensongpoixs/cstructdata/raw/master/%E4%B8%89%2C%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91/img/balanced_binary_tree_insert_rr.png?raw=true)
 
 
+###### 3, LR平衡旋转(先左后右双旋转)
 
+由于在A的左孩子(L)的右子树(R)上插入新的结点,A的平衡因子由1曾至2,导致以A为根的子树失去平衡,需要进行二次旋转操作,先左旋转后右旋转。先将A结点的左孩子B的右子树的根结点C向左上旋转提升到B结点的位置，然后再把该C结点向右上旋转提升到A结点的位置。
 
+![](https://github.com/chensongpoixs/cstructdata/raw/master/%E4%B8%89%2C%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91/img/balanced_binary_lr.png?raw=true)
 
+###### 4, RL平衡旋转(先右后左双旋转)
 
+由于在A的右孩子(R)的左子树(L)上插入新的结点,A的平衡因子由-1减至-2,导致以A为根的子树失去平衡，需要进行二次旋转操作,先右旋转后左旋转。先将A结点的右孩子B的左子树的根结点C向右上旋转提升到B结点的位置,然后再把该结点向左上旋转提升到A结点的位置。
 
+![](https://github.com/chensongpoixs/cstructdata/raw/master/%E4%B8%89%2C%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91/img/balanced_binary_rl.png?raw=true)
